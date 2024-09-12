@@ -1,0 +1,9 @@
+dotenv Package:
+
+dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. This is particularly useful for managing configuration and secrets, such as database connection strings and API keys, in a secure and convenient way.
+dotenv.config() Method:
+
+The config method of the dotenv package is used to load environment variables from a file into the process.env object. When you call this method, it reads the specified file, parses the content, and assigns the values to process.env.
+{ path: './config/config.env' } Option:
+
+The path option specifies the location of the .env file to be loaded. In this case, './config/config.env' indicates that the file is located in the config directory relative to the root directory of your project and is named config.env.
